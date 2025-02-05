@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Numbers</title>
+</head>
+<body>
+    <h2>Even Numbers from 1 to 100</h2>
+    <div id="output"></div>
+
+    <script>
+        let outputDiv = document.getElementById("output");
+        for (let i = 2; i <= 100; i += 2) {
+            let para = document.createElement("p");
+            para.textContent = i;
+            outputDiv.appendChild(para);
+        }
+    </script>
+</body>
+</html>
