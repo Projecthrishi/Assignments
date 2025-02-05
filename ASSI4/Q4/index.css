@@ -1,4 +1,4 @@
-/* Styling for the text container */
+
 .text-here {
     font-size: 55px;
     font-family: sans-serif;
@@ -15,14 +15,14 @@
     display: inline-block;
 }
 
-/* Input and button styling */
+
 input, select, button {
     margin: 5px;
     padding: 8px;
     font-size: 16px;
 }
 
-/* Style buttons */
+
 .stylebt, #colorchange, #getstyle {
     cursor: pointer;
     border: none;
@@ -32,19 +32,19 @@ input, select, button {
     border-radius: 5px;
 }
 
-/* Specific button colors */
+
 #colorchange { background-color: #3498db; color: white; }
 #italic { background-color: #f39c12; color: white; }
 #underline { background-color: #27ae60; color: white; }
 #bold { background-color: #c0392b; color: white; }
 #getstyle { background-color: #8e44ad; color: white; }
 
-/* Range input styling */
+
 #fontsize {
     width: 200px;
 }
 
-/* Styling for the generated CSS properties */
+
 #css-props {
     font-family: monospace;
     background-color: #f4f4f4;
