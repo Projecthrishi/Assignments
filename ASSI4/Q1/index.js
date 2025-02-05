@@ -1,9 +1,9 @@
 function swapTheme() {
-    // Get the app div and the button element
+    
     const appDiv = document.getElementById('app');
     const button = document.getElementById('swap');
     
-    // Check the current class of the div and toggle accordingly
+    
     if (appDiv.classList.contains('day')) {
         appDiv.classList.remove('day');
         appDiv.classList.add('night');
