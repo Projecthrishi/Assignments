@@ -7,15 +7,15 @@ function countVowelsAndConsonants(inputString) {
     let vowelCount = 0;
     let consonantCount = 0;
     
-    // Loop through each character in the string
+  
     for (let i = 0; i < inputString.length; i++) {
         let char = inputString[i];
         
-        // Check if the character is a vowel
+       
         if (vowels.includes(char)) {
             vowelCount++;
         }
-        // Check if the character is a consonant
+        
         else if (consonants.includes(char)) {
             consonantCount++;
         }
